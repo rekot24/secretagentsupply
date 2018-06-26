@@ -2,20 +2,163 @@ html {
   font-size: 18px;
 }
 
+body {
+  font-family: Helvetica;
+}
+
 .logo {
   background-color: black;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-cont {
+  display: flex;
+  align-items: center;
+  width: 960px;
+}
+
+.logo-cont img {
+  height: 1.5rem;
+  padding: 0 1rem 0 0.5rem;
+}
+
+.logo-cont h2 {
+  font-size: 1rem;
+  padding: 0.66rem 0;
 }
 
 .banner {
-  background-image: url("../images/moto.jpeg");
+  display: flex;
+  justify-content: center;
   width: 100%;
-  background-size: cover;
   height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
 }
 
 .new-arrival {
+  width: 960px;
+}
+
+.new-arrival-box {
+  margin-top: 9rem;
   background-color: black;
   color: white;
   width: 20rem;
+  padding-left: 3rem;
+}
+
+.new-arrival-box h3 {
+  font-weight: bold;
+  padding: 2rem 0 .25rem 0;
+}
+
+.new-arrival-box h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.nav-cont {
+  background-color: firebrick;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 0;
+}
+
+nav {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.item-list {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-box {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  border: 4px solid black;
+}
+
+.img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9rem;
+  overflow: hidden;
+  padding: 2rem 0;
+}
+
+.img-box img {
+  max-height: 9rem;
+  max-width: 9rem;
+}
+
+.item-box span {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.section-box {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.box-text {
+  background-color: black;
+  color: white;
+  padding: 1rem 0 1rem 2rem;
+}
+
+footer {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-box {
+  width: 960px;
+}
+
+.footer-box span {
+  color: white;
 }
