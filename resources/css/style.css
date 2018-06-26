@@ -1,0 +1,21 @@
+html {
+  font-size: 18px;
+}
+
+.logo {
+  background-color: black;
+  color: white;
+}
+
+.banner {
+  background-image: url("../images/moto.jpeg");
+  width: 100%;
+  background-size: cover;
+  height: 25rem;
+}
+
+.new-arrival {
+  background-color: black;
+  color: white;
+  width: 20rem;
+}
