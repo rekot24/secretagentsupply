@@ -8,56 +8,63 @@
   </head>
   <body>
 
-    <!-- Header Section -->
+    <!-- Company Header Section -->
 
     <header>
-      <div class="logo">
-        <div class="logo-cont">
-          <img src="./resources/images/logo.png" alt="Secret Agent Supply Inc. Logo">
-          <h2>SECRET AGENT SUPPLY INC.</H2>
-        </div>
-      </div>
-      <div class="banner">
-        <div class="new-arrival">
-          <div class="new-arrival-box">
-            <h3>NEW ARRIVAL</h3>
-            <h1>SPORT BIKES AND MOTORCYCLES</h1>
-          </div>
-        </div>
-      </div>
-      <div class="nav-cont">
-        <nav>
-          <span><a href="#">Eyewear</a></span>
-          <span><a href="#">Apparel</a></span>
-          <span><a href="#">Gadgets</a></span>
-          <span><a href="#">Vehicles</a></span>
-          <span><a href="#">Classes</a></span>
-          <span><a href="#">Contact</a></span>
-        </nav>
+      <div class="container">
+        <img class="logo" src="./resources/images/logo.png" alt="Secret Agent Supply Inc. Logo">
+        <h2>SECRET AGENT SUPPLY INC.</H2>
       </div>
     </header>
 
-    <!-- Main section -->
+    <!-- Main Banner -->
 
-    <main class="items">
-      <div class="item-list">
+    <div class="banner">
+      <div class="container">
+        <div class="headline">
+          <h4>NEW ARRIVAL</h4>
+          <h1>SPORT BIKES AND MOTORCYCLES</h1>
+        </div>
+      </div>
+    </div>
 
-        <div class="item-box">
-          <div class="img-box">
+    <!-- Navigation Bar -->
+
+    <nav>
+      <ul class="container">
+        <li>Eyewear</li>
+        <li>Apparel</a></li>
+        <li>Gadgets</li>
+        <li>Vehicles</li>
+        <li>Classes</li>
+        <li>Contact</li>
+      </ul>
+      <ul class="mobile-nav-cont">
+        <li>Menu</li>
+      </ul>
+    </nav>
+
+    <!-- Main section / Products -->
+
+    <main class="container">
+      <div class="items">
+
+        <div class="item">
+          <div class="item-img">
             <img src="./resources/images/pen.png" alt="Exploding Pen Picture" />
           </div>
           <span>Exploding Pen</span>
         </div>
 
-        <div class="item-box">
-          <div class="img-box">
+        <div class="item watch">
+          <div class="item-img">
             <img src="./resources/images/watch.png" alt="Cellular Watch Picture" />
           </div>
           <span>Exploding Pen</span>
         </div>
 
-        <div class="item-box">
-          <div class="img-box">
+        <div class="item glasses">
+          <div class="item-img">
             <img src="./resources/images/glasses.png" alt="Thermal Glasses Picture" />
           </div>
           <span>Exploding Pen</span>
@@ -66,19 +73,19 @@
       </div>
     </main>
 
-    <!-- Location Section -->
+    <!-- Location & Hours Section -->
 
-    <section>
-      <div class="section-box">
+    <section class="container">
+      <div class="biz-info">
 
-        <div class="location">
-          <span class="box-text">Location</span>
-          <span class="under-box">-47.346436, 84.32354</span>
+        <div class="info">
+          <span class="title">Location</span>
+          <span>-47.346436, 84.32354</span>
         </div>
 
-        <div class="location">
-          <span class="box-text">Hours</span>
-          <span class="under-box">0800 - 1800</span>
+        <div class="info">
+          <span class="title">Hours</span>
+          <span>0800 - 1800</span>
         </div>
 
       </div>
@@ -87,7 +94,7 @@
     <!-- footer section -->
 
     <footer>
-      <div class="footer-box">
+      <div class="container">
         <span>Copyright Secret Agent Supply Inc.</span>
       </div>
     </footer>
